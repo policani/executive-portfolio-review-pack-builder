@@ -1,0 +1,28 @@
+flowchart TD
+    A[Raw portfolio inputs<br/>Status, blockers, dependencies, decisions, capacity notes, sponsor asks] --> B[Intake and normalization<br/>Standardize initiative, owner, sponsor, date, evidence, ask]
+    B --> C{Classify executive review signal}
+    C --> D[Routine status<br/>Progress update only]
+    C --> E[Decision needed<br/>Options, tradeoffs, owner, timing]
+    C --> F[Risk / issue / blocker<br/>Impact, mitigation, escalation path]
+    C --> G[Dependency / sequencing concern<br/>Impacted initiatives and accountable parties]
+    C --> H[Capacity pressure<br/>Team load, funding gap, delivery conflict]
+    C --> I[Sponsor action / executive ask<br/>Support, clarification, escalation]
+    C --> J[Weak or missing signal<br/>Stale, unsupported, vague, no owner]
+    D --> K[Executive portfolio summary]
+    E --> L[Decision agenda]
+    F --> M[Risk and dependency view]
+    G --> N[Sequencing question]
+    H --> O[Capacity pressure summary]
+    I --> P[Sponsor action register]
+    J --> Q[Signal quality review]
+    K --> R[Executive portfolio review pack<br/>Pre-read, initiative cards, decision requests, facilitator guide]
+    L --> R
+    M --> R
+    N --> R
+    O --> R
+    P --> R
+    Q --> R
+    R --> S[Human executive review<br/>Leaders decide, sponsors commit, PMO records]
+    S --> T[Post-review follow-up register<br/>Decisions, actions, owners, due dates, unresolved items]
+    T --> U[Handoff to PMO Governance Operations Log]
+    T --> V[Sequencing questions to Portfolio Capacity Sequencing Planner]
