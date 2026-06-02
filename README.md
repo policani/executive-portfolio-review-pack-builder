@@ -4,6 +4,18 @@
 
 This repository packages a public-safe ChatGPT Project runtime and supporting GitHub examples for turning messy portfolio updates into an executive-ready portfolio review pack.
 
+## Portfolio exhibit
+
+| Review question | Where to look |
+|---|---|
+| Status | Public portfolio prototype with a ChatGPT Project runtime and a small local sample builder. |
+| Best evaluator | PMO, EPMO, portfolio, program, transformation office, Chief of Staff, and executive operations leaders preparing sponsor or steering-committee reviews. |
+| Operating decision supported | What should executives review, decide, escalate, sequence, or carry forward after seeing current portfolio signal? |
+| Concrete example | [`examples/sample-output.html`](examples/sample-output.html) shows a synthetic executive review pack built from sample portfolio data. |
+| Before / after proof | Before: status updates, blockers, risks, capacity notes, and sponsor asks are scattered across inputs. After: the material is organized into an executive summary, decision agenda, risk/dependency view, capacity pressure summary, and follow-up register. |
+| Boundary | This module packages the review. It does not approve funding, change priorities, score investments, assign owners, or run delivery. |
+| Portfolio lane | [Build executive review packs](https://policani.net/#navigator). |
+
 ## One-sentence description
 
 The Executive Portfolio Review Pack Builder helps PMO, EPMO, portfolio, program, and operating leaders convert initiative updates, blockers, decisions, risks, dependencies, capacity constraints, and sponsor asks into a concise executive review pack without giving AI authority over funding, prioritization, sequencing, or risk acceptance.
