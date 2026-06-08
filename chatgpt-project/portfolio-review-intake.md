@@ -12,6 +12,8 @@
 - Decision needed, if any
 - Risk, blocker, or dependency
 - Capacity or funding constraint
+- Value or benefit signal, if relevant
+- Measurement contract, if value is claimed: expected outcome, benefit type, metric, baseline, target, actual if available, measurement period, source, measure owner, review cadence, validation need, confidence, realization risk, finance-sensitive flag, downstream route
 - Requested sponsor or executive action
 - Next required date
 
@@ -23,6 +25,8 @@
 4. Flag stale updates.
 5. Flag green statuses with weak or missing evidence.
 6. Identify decision requests without options, tradeoffs, or deadlines.
+7. Separate realized value, maturing value, at-risk value, unsupported value claims, and finance-validation needs when value information is present.
+8. Identify decisions required for value: validate method, assign owner, accept risk, change scope, defer claim, continue measurement, scale, hold, or retire.
 
 ## Output
 
