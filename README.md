@@ -231,6 +231,10 @@ This system supports intake, classification, synthesis, drafting, routing, and r
 
 All example data is synthetic. Do not upload employer-private, client-private, financial-private, security-sensitive, regulated, or proprietary material unless you have authority and have applied appropriate privacy controls.
 
+## License
+
+Source code and scripts are licensed under MIT. Documentation, prompts, templates, examples, and other non-code materials are licensed under CC BY 4.0 with attribution to Marco Policani. See `LICENSE.md`.
+
 ## Search keywords
 
 PMO, EPMO, portfolio governance, portfolio review, executive portfolio review, steering committee, governance cadence, decision agenda, executive decision support, initiative review, risk review, dependency review, blocker review, capacity planning, sequencing, sponsor action, tradeoff brief, portfolio operating model, AI-assisted PMO, human-in-the-loop, ChatGPT Project, Codex, project portfolio management, governance artifacts.
